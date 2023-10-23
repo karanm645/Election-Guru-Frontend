@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Representatives App</title>
+  <title>Election Guru</title>
 </head>
 
   <body>
@@ -13,9 +13,10 @@
       <form id="addressForm">
         <label for="address">Enter Address:</label>
         <input type="text" id="address" required>
+        <!-- this button triggers the getRepresentatives function in the js file -->
         <button type="button" onclick="getRepresentatives()">Get Representatives</button>
       </form>
-
+      <!-- this is a container that displays the results-->
       <div id="results"></div>
       <script src="main.js"></script>
   </body>
